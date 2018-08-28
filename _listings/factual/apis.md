@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factua
 x-kinRank: "9"
 x-alexaRank: "147251"
 tags: Submissions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/factual/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Factual - Post Table Name Submit
+  x-api-slug: ttable-namesubmit-post
+  description: Post table name submit.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
+  humanURL: http://www.factual.com/
+  baseURL: https://api.v3.factual.com//
+  tags: Data, Geo, Places, Target, Business, Stack Network, SaaS, Technology, Enterprise,
+    internet, API Provider, Data Provider, Profiles, General Data, Locations
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/factual/ttable-namesubmit-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/factual/ttable-namesubmit-post-openapi.md
 - name: Factual - Post Table Name Submit
   x-api-slug: ttable-namesubmit-post
   description: Post table name submit.

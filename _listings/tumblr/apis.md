@@ -7,11 +7,25 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr
 x-kinRank: "7"
 x-alexaRank: "59"
 tags: Submissions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/tumblr/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Tumblr - Get Blog Base Hostname Adds Submission
+  x-api-slug: blogbasehostnamepostssubmission-get
+  description: Retrieves submission posts.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/265-tumblr.jpg
+  humanURL: https://www.tumblr.com/
+  baseURL: https://api.tumblr.com//v2/
+  tags: Blog, Social, Content, Communications, Blogging, Communications, Stack, Media,
+    Technology, internet, Mobile, General Data, Relative Data, Service API, Pedestal,
+    Historical Data API, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/tumblr/blogbasehostnamepostssubmission-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/tumblr/blogbasehostnamepostssubmission-get-openapi.md
 - name: Tumblr - Get Blog Base Hostname Adds Submission
   x-api-slug: blogbasehostnamepostssubmission-get
   description: Retrieves submission posts.

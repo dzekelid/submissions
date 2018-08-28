@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Submissions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
@@ -431,6 +431,59 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-openapi.md
+- name: Instructure Canvas Courses API - Send a message to unsubmitted or submitted
+    users for the quiz
+  x-api-slug: coursescourse-idquizzesidsubmission-usersmessage-post
+  description: Send a message to unsubmitted or submitted users for the quiz.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/coursescourse-idquizzesidsubmission-usersmessage-post-openapi.md
+- name: Instructure Canvas Courses API - Create Peer Review
+  x-api-slug: coursescourse-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-post
+  description: Create peer review.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/coursescourse-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/coursescourse-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-post-openapi.md
+- name: Instructure Canvas Courses API - Get all Peer Reviews
+  x-api-slug: coursescourse-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-get
+  description: Get all peer reviews.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/coursescourse-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/coursescourse-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-get-openapi.md
+- name: Instructure Canvas Courses API - Create Peer Review
+  x-api-slug: coursescourse-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-delete
+  description: Create peer review.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/coursescourse-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/coursescourse-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-delete-openapi.md
 - name: Instructure Canvas Polls API - Create a single poll submission
   x-api-slug: pollspoll-idpoll-sessionspoll-session-idpoll-submissions-post
   description: Create a single poll submission.
@@ -613,6 +666,58 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/quiz-submissionsquiz-submission-idquestionsidunflag-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/quiz-submissionsquiz-submission-idquestionsidunflag-put-openapi.md
+- name: Instructure Canvas Quiz Submissions API - Unflagging a question.
+  x-api-slug: quiz-submissionsquiz-submission-idquestionsidunflag-put
+  description: Unflagging a question..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/quiz-submissionsquiz-submission-idquestionsidunflag-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/quiz-submissionsquiz-submission-idquestionsidunflag-put-openapi.md
+- name: Instructure Canvas Quiz Submissions API - Flagging a question.
+  x-api-slug: quiz-submissionsquiz-submission-idquestionsidflag-put
+  description: Flagging a question..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/quiz-submissionsquiz-submission-idquestionsidflag-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/quiz-submissionsquiz-submission-idquestionsidflag-put-openapi.md
+- name: Instructure Canvas Quiz Submissions API - Answering questions
+  x-api-slug: quiz-submissionsquiz-submission-idquestions-post
+  description: Answering questions.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/quiz-submissionsquiz-submission-idquestions-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/quiz-submissionsquiz-submission-idquestions-post-openapi.md
+- name: Instructure Canvas Quiz Submissions API - Get all quiz submission questions.
+  x-api-slug: quiz-submissionsquiz-submission-idquestions-get
+  description: Get all quiz submission questions..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/quiz-submissionsquiz-submission-idquestions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/quiz-submissionsquiz-submission-idquestions-get-openapi.md
 - name: Instructure Canvas Sections API - List assignment submissions
   x-api-slug: sectionssection-idassignmentsassignment-idsubmissions-get
   description: List assignment submissions.
@@ -860,6 +965,45 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-post-openapi.md
+- name: Instructure Canvas Sections API - Create Peer Review
+  x-api-slug: sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-post
+  description: Create peer review.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-post-openapi.md
+- name: Instructure Canvas Sections API - Get all Peer Reviews
+  x-api-slug: sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-get
+  description: Get all peer reviews.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-get-openapi.md
+- name: Instructure Canvas Sections API - Create Peer Review
+  x-api-slug: sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-delete
+  description: Create peer review.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/instructure/sectionssection-idassignmentsassignment-idsubmissionssubmission-idpeer-reviews-delete-openapi.md
 - name: Instructure Canvas Users API - List Missing Submissions
   x-api-slug: usersuser-idmissing-submissions-get
   description: List missing submissions.

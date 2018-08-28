@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123co
 x-kinRank: "7"
 x-alexaRank: "24419"
 tags: Submissions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/apis.md
 specificationVersion: "0.14"
 apis:
@@ -104,6 +104,84 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-delete-openapi.md
+- name: ' - Delete one form submission'
+  x-api-slug: formsform-idsubmissionssubmission-id-delete
+  description: Delete one form submission
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
+  humanURL: http://www.123formbuilder.com
+  baseURL: https://api.123contactform.com//v2
+  tags: Forms, Surveys, SaaS, Technology, internet, API Provider, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-delete-openapi.md
+- name: ' - Delete one form submission'
+  x-api-slug: formsform-idsubmissionssubmission-id-delete
+  description: Delete one form submission
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
+  humanURL: http://www.123formbuilder.com
+  baseURL: https://api.123contactform.com//v2
+  tags: Forms, Surveys, SaaS, Technology, internet, API Provider, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-delete-openapi.md
+- name: ' - Update Submission'
+  x-api-slug: formsform-idsubmissionssubmission-id-put
+  description: Update Submission
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
+  humanURL: http://www.123formbuilder.com
+  baseURL: https://api.123contactform.com//v2
+  tags: Forms, Surveys, SaaS, Technology, internet, API Provider, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-put-openapi.md
+- name: ' - Update Submission'
+  x-api-slug: formsform-idsubmissionssubmission-id-put
+  description: Update Submission
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
+  humanURL: http://www.123formbuilder.com
+  baseURL: https://api.123contactform.com//v2
+  tags: Forms, Surveys, SaaS, Technology, internet, API Provider, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-put-openapi.md
+- name: ' - Get submission details'
+  x-api-slug: formsform-idsubmissionssubmission-id-get
+  description: Get the details of a single submission
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
+  humanURL: http://www.123formbuilder.com
+  baseURL: https://api.123contactform.com//v2
+  tags: Forms, Surveys, SaaS, Technology, internet, API Provider, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-get-openapi.md
+- name: ' - Get submission details'
+  x-api-slug: formsform-idsubmissionssubmission-id-get
+  description: Get the details of a single submission
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1638-123contactform.jpg
+  humanURL: http://www.123formbuilder.com
+  baseURL: https://api.123contactform.com//v2
+  tags: Forms, Surveys, SaaS, Technology, internet, API Provider, Profiles, Relative
+    Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/123formbuilder/formsform-idsubmissionssubmission-id-get-openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/123contactform.json

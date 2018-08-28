@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kalt
 x-kinRank: "7"
 x-alexaRank: "23496"
 tags: Submissions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/kaltura/apis.md
 specificationVersion: "0.14"
 apis:
@@ -97,6 +97,45 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/kaltura/servicecontentdistribution-entrydistributionactionsubmitupdate-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/kaltura/servicecontentdistribution-entrydistributionactionsubmitupdate-get-openapi.md
+- name: Kaltura VPaaS - Get Service Contentdistribution Entrydistribution Action Submitupdate
+  x-api-slug: servicecontentdistribution-entrydistributionactionsubmitupdate-get
+  description: Submits Entry Distribution changes to the remote destination
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/kaltura/servicecontentdistribution-entrydistributionactionsubmitupdate-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/kaltura/servicecontentdistribution-entrydistributionactionsubmitupdate-get-openapi.md
+- name: Kaltura VPaaS - Get Service Contentdistribution Entrydistribution Action Submitdelete
+  x-api-slug: servicecontentdistribution-entrydistributionactionsubmitdelete-get
+  description: Deletes Entry Distribution from the remote destination
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/kaltura/servicecontentdistribution-entrydistributionactionsubmitdelete-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/kaltura/servicecontentdistribution-entrydistributionactionsubmitdelete-get-openapi.md
+- name: Kaltura VPaaS - Get Service Contentdistribution Entrydistribution Action Submitadd
+  x-api-slug: servicecontentdistribution-entrydistributionactionsubmitadd-get
+  description: Submits Entry Distribution to the remote destination
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg
+  humanURL: http://kaltura.com
+  baseURL: https://www.kaltura.com//api_v3
+  tags: SaaS, Technology, Enterprise, API Provider, Videos, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/kaltura/servicecontentdistribution-entrydistributionactionsubmitadd-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/kaltura/servicecontentdistribution-entrydistributionactionsubmitadd-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://jumpseller.api.gallery.streamdata.io

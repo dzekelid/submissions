@@ -11,11 +11,33 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Submissions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/allied-irish-bank/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Payment Initiation API Specification - Create a payment submission
+  x-api-slug: paymentsubmissions-post
+  description: Submit a previously setup payment
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/allied-irish-bank.jpeg
+  humanURL: https://aibgb.co.uk/
+  baseURL: https:////open-banking/v1.1
+  tags: UK Banks, Accounts, Loans, ATMs, API Provider, Profiles, Relative Data, General
+    Data, Banking
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/allied-irish-bank/paymentsubmissions-post-openapi.md
+- name: Payment Initiation API Specification - Get a payment submission
+  x-api-slug: paymentsubmissionspaymentsubmissionid-get
+  description: Get payment submission
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/allied-irish-bank.jpeg
+  humanURL: https://aibgb.co.uk/
+  baseURL: https:////open-banking/v1.1
+  tags: UK Banks, Accounts, Loans, ATMs, API Provider, Profiles, Relative Data, General
+    Data, Banking
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/allied-irish-bank/paymentsubmissionspaymentsubmissionid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://allied.irish.bank.api.gallery.streamdata.io

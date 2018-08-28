@@ -10,11 +10,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Submissions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/storecove/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Storecove - Submit a new invoice
+  x-api-slug: invoice-submissions-post
+  description: |-
+    Submit an invoice for delivery.
+    include::examples/invoice_submissions/create_invoice_submission/tabs.adoc[]
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg
+  humanURL: http://www.storecove.com
+  baseURL: https://api.storecove.com//api/v2
+  tags: Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/storecove/invoice-submissions-post-openapi.md
+- name: Storecove - Preflight an invoice recipient
+  x-api-slug: invoice-submissionspreflight-post
+  description: |-
+    Check whether Storecove can deliver an invoice for a list of ids.
+    include::examples/invoice_submissions/preflight_invoice_recipient/tabs.adoc[]
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/storecove-logo.jpg
+  humanURL: http://www.storecove.com
+  baseURL: https://api.storecove.com//api/v2
+  tags: Invoices, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/storecove/invoice-submissionspreflight-post-openapi.md
 x-common:
 - type: x-website
   url: http://www.storecove.com

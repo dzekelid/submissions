@@ -8,11 +8,24 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Submissions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/digital-river/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Digital River Shopper API - Post Shoppers Me Carts Active Submit Cart
+  x-api-slug: v1shoppersmecartsactivesubmitcart-post
+  description: Post shoppers me carts active submit cart.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
+  humanURL: https://digitalriver.com
+  baseURL: https://store.digitalriver.com//store/{mysite}
+  tags: Commerce, Commerce, Products, Stack Network, API Service Provider, Products,
+    Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/digital-river/v1shoppersmecartsactivesubmitcart-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/submissions/master/_listings/digital-river/v1shoppersmecartsactivesubmitcart-post-openapi.md
 - name: Digital River Shopper API - Post Shoppers Me Carts Active Submit Cart
   x-api-slug: v1shoppersmecartsactivesubmitcart-post
   description: Post shoppers me carts active submit cart.
